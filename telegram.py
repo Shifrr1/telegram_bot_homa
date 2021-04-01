@@ -10,10 +10,11 @@
 
 import telebot
 import random
+import tokenbot
 from telebot import  types
 
 number=0
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot(tokenbot.TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
