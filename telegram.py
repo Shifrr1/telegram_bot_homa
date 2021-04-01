@@ -13,7 +13,7 @@ import random
 from telebot import  types
 
 number=0
-bot = telebot.TeleBot("1286044666:AAH8So7bqc5hUcayHQWZTShMn6m--8CCNsE")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
