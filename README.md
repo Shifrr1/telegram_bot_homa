@@ -1,2 +1,2 @@
 # catdog
-everything in general
+бот хомяк
